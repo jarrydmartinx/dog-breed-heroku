@@ -43,9 +43,10 @@ nbconvert==5.3.1
 nbformat==4.4.0
 notebook==6.1.5
 numpy==1.15.4
+--i https://pypi.anaconda.org/intel/simple -extra-index-url https://pypi.org/simple mkl_random
 # Must be after numpy
-git+https://github.com/IntelPython/mkl_fft#egg=mkl-fft
-git+https://github.com/IntelPython/mkl_random#egg=mkl-random
+# git+https://github.com/IntelPython/mkl_fft#egg=mkl-fft
+# git+https://github.com/IntelPython/mkl_random#egg=mkl-random
 # mkl-random==1.0.2
 numpydoc==0.8.0
 olefile==0.46
